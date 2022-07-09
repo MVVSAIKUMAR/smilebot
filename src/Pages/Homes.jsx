@@ -1,7 +1,7 @@
 import React from 'react'
 import {porducts} from '../component/Json'
 import Card from '../component/Card'
-import '../component/css/Card.css'
+import '../component/pcss/Card.css'
 const Homes = () => {
   return (
     <div>
@@ -12,7 +12,9 @@ const Homes = () => {
                     <div>
                 <Card name = {v.name} 
                     Img ={v.imageURL}
-                 price = {v.price} />
+                 price = {v.price}
+                 id = {v.productId}
+                 />
                  </div>
                 )
             })
