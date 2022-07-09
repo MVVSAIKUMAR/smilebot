@@ -1,7 +1,7 @@
 import React from 'react'
-import {porducts} from '../component/Json'
-import Card from '../component/Card'
-import '../component/pcss/Card.css'
+import {porducts} from '../componet/Json'
+import Card from '../componet/Card'
+import '../componet/css/Card.css'
 const Homes = () => {
   return (
     <div>
@@ -14,6 +14,7 @@ const Homes = () => {
                     Img ={v.imageURL}
                  price = {v.price}
                  id = {v.productId}
+                 discription = {v.discription}
                  />
                  </div>
                 )
