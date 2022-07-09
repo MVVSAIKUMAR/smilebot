@@ -1,7 +1,7 @@
 import React from 'react'
-import {porducts} from '../componet/Json'
-import Card from '../componet/Card'
-import '../componet/css/Card.css'
+import {porducts} from '../component/Json'
+import Card from '../component/Card'
+import '../component/pcss/Card.css'
 const Homes = () => {
   return (
     <div>
